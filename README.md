@@ -13,13 +13,16 @@ Getting rid of tangential and radial distortions for a certain camera output.
 
 ![](calibresult.png)
 
-## Get a 3D axes associated wih the predominant object in the camera's perspective
+## Get a 3D axes 
 
+Calculate the 3D axes associated wih the predominant object in the camera's perspective, making use of epipolar geometry to calculate the required angles.
 
+![](axes.jpg)
+![](cube.jpg)
 
 ## Depth Estimation by calculating disparity
 ![](left.png)
 ![](right.png)
-### Result
+**Result**
 ![](heatmap.jpg)
 ![](heatmap_3D.gif)
